@@ -1,0 +1,26 @@
+.infocard{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    padding: 0 20px;
+    background: #8A2387;
+    background: -webkit-linear-gradient(to left, #F27121, #E94057, #8A2387);
+    background: linear-gradient(to left, #F27121, #E94057, #8A2387); 
+}
+.infoIcon{
+    font-size: 8rem;
+    text-align: center;
+    color: var(--webColor);
+}
+.authInfo{
+    text-align: center;
+}
+.authInfo h1{
+    padding: 20px;
+    color: var(--webColor);
+}
+.authInfo p{
+    font-size: 18px;
+    padding: 0 100px;
+}

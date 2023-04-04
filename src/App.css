@@ -1,38 +1,33 @@
-.App {
-  text-align: center;
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,200;1,300;1,400&display=swap');
+
+*{
+  font-family: 'Noto Sans', sans-serif;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body{
+  background-color: var(--whiteBlue);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+:root{
+  --whiteColor: #ffffff;
+  --whiteBlue: #EDF2F6;
+  --blackMuted: #646C73;
+  --darkBlack: #161616;
+  --webColor: #1B1464;
+  --darklight: #eee;
+  --shadowLevelOne: 0px 3px 8px rgba(0,0,0,0.024);
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.Link{
+  text-decoration: none;
+  color: var(--webColor);
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.commonBox{
+    background-color: var(--whiteColor);
+    border-radius: 10px;
+    box-shadow: var(--shadowLevelOne);
 }

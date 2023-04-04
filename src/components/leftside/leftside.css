@@ -1,0 +1,44 @@
+.left .LeftProfileCard{
+    background-color: var(--whiteColor);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: var(--shadowLevelOne);
+}
+.left .LeftProfileCard img{
+    width: 50px;
+    height: 50px;
+    border-radius: 5px;
+}
+
+.pinfo p{
+   font-size: 13px;
+}
+
+.settingCard{
+    background-color: var(--whiteColor);
+    min-height: 500px;
+    margin-top: 20px;
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: var(--shadowLevelOne);
+}
+.settingCard ul{
+    list-style: none;
+}
+.settingCard ul .SideLink{
+    display: flex;
+    align-items: center;
+    margin: 25px 0;
+    border-bottom: 1px solid var(--darklight);
+}
+.settingCard ul li .sideIcon{
+    padding: 5px;
+    border-radius: 5px;
+}
+.settingCard ul li .textprofile{
+    width: 100%;
+    padding: 5px 10px;
+}

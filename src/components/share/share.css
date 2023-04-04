@@ -1,0 +1,68 @@
+.share{
+    width: 100%;
+    height: min-content;
+    margin: 15px 0;
+    border-radius: 10px;
+    background-color: var(--whiteColor);
+    box-shadow: var(--shadowLevelOne);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 20px;
+}
+
+.section1{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.shareProfile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.shareProfile img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+.shareInput{
+    width: 100%;
+    display: flex;
+}
+.shareInput input{
+    width: 100%;
+    border: none;
+    outline: none;
+    background-color: var(--whiteBlue);
+    margin: 0 10px;
+    padding: 15px;
+    border-radius: 10px;
+}
+.shareInput button{
+    padding: 17px;
+    border-radius: 10px;
+}
+.section2 .shareOptions{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    list-style: none;
+    padding-top: 15px;
+}
+.section2 .shareOptions li span{
+    display: block;
+    text-align: center;
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--webColor);
+}
+.section2 .shareOptions li{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    border: 1px solid var(--webColor);
+    border-radius: 10px;
+}

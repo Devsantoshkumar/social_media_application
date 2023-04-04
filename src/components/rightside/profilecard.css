@@ -1,0 +1,26 @@
+.onlineFriends ul li{
+    display: flex;
+    align-items: center;
+    padding: 5px;
+}
+
+.onlineProfile{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+}
+
+.onlineProfile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+}
+.onlineInfo{
+    display: flex;
+    flex-direction: column;
+    padding-left: 10px;
+}
+
+.onlineName{
+    font-size: 13px;
+}
